@@ -1,5 +1,5 @@
 {
-  "name":"Zokou-2.0",
+  "name":"caxtonderick",
   "description":"bot whatsapp développé par djalega++",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
@@ -10,7 +10,7 @@
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":"#",
+      "value":".",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Zokou-MD",
+      "value":"caxtonderick",
       "required":false
 
     } ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -65,7 +65,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "value":"Zokou-MD-WHATSAPP-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSURoUk5QOXJhdVFKQk9WUjdlYzByRkRDTXR0a3ZkY0p5dVpYNHY4Y2pWST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWXpKd0hPT0NDcUlWNnh3UzgvdEdaalBqN3UrVUtGdVhVNS9xNjRtWkxVTT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPT2E1a1REYlRpQnNTNWplMHBqbjAvR2RyM0ttUThZVGNUSUY4WFg1S1V3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJwWlBiOFA3elc4VUxyK05tNjRZM2ttRHFFYms1K3NrOGU2bWdrZTBTazJFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklOVVA1MkRSdXZzSTU4SjJRZzRTZ3lQZnBYTGRUanBWaWsrM2dnSGRFMXc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImZNVkp3OEh1N1ZVcGI5Wi9ZUGM2OWw1clhKMnNzNlZzODZwbkcxcmxVbjA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWUg3TmptakcybkUwK0hza0pPangrdGdXalVvZkd2NzB1U1gvZm1IWU9IST0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiOTdHK1pKRnVSaG8xeFRPWWtKMkdtS2d1Q214ZHJUTkdGanNSbk9WYXloaz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ijk4bG1JUnF6VTJyT3VFQWxqcFVRUDJEanMyYmJ2dktjcDlzSFE5MUZjS3pWc2N2ajAwNElLTTRRNnNXUU5vTG4rTTZlZU5uMGw1MkY0TmlXZ2RFcmdnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6ODUsImFkdlNlY3JldEtleSI6InF0QUdWWWxIR1k3QTE3U2xhSVMzbm5DYzVGaXVid2haTTRzMGIxdUYzUDQ9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6ImROcXZSRkg5UTNTa3Vsb0JZNzF6V1EiLCJwaG9uZUlkIjoiYzkzYzg4ZmUtNTMwYi00ZTRjLWJjYzUtNDgyMmZjMTI1OWE5IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxnOXVYM0RQLzY0VWVGNW9uNUw0alE2dHVHOD0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrMG00WjBoTFpMSXJ1ai91NXlPeU5rZ0RCVk09In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiQkEyN0FETFQiLCJsYXN0UHJvcEhhc2giOiIyRjl5eHoiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBSUlDQT09In0sIm1lIjp7ImlkIjoiMjU0Nzk4MDMzODQ0OjMxQHMud2hhdHNhcHAubmV0IiwibGlkIjoiMjM5MTg3MjE1MjkwNDY1OjMxQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDTVdWMjdBRkVLcjB5N1FHR0FNZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiQW84RGVPNEM3cksySHgveThYdEdaR3Z5Y2NoVWdTT2ZUY0pMeW90WXNEND0iLCJhY2NvdW50U2lnbmF0dXJlIjoiaXhjZ210QmMwb0Y5clo1eEszb2R2U1J4ZFovNFAyYm52K2tBNkhSQW9ld1J6ejRMSTE1M1d6N0V5WmZhQmVwUWI1VGJXK3BnaGNxRnpPbXdCUFJaQ1E9PSIsImRldmljZVNpZ25hdHVyZSI6IkVXT2JYRTJtNm1IR3IydExOSFBVTEVqcUNhWUVCOHNoaVVkSEZXbzhBQldlQlVMdHZVRDlQMTREdWZCa2ZIZXo4THR4bFpGUW9QM0ZzSDJ2bHRhcmh3PT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0Nzk4MDMzODQ0OjMxQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlFLUEEzanVBdTZ5dGg4Zjh2RjdSbVJyOG5ISVZJRWpuMDNDUzhxTFdMQSsifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjA5MDgzMzMsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBSFh0In0=",
       "required":true
       
     },
